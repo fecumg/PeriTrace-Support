@@ -21,7 +21,7 @@
       --ink: #211F1B;
       --ink-soft: #55524A;
       --thread: #211F1B;
-      --thread-deep: #8E2C22;
+      --thread-deep: #34506B;
       --chalk: #34506B;
       --line: #CFC8B4;
       --line-strong: #a8a08a;
@@ -30,6 +30,7 @@
       --radius: 2px;
       --side-art-width: 25vw;
       --opacity: 0.7;
+      --side-art-opacity: 0.3;
     }
 
     * {
@@ -98,7 +99,7 @@
 
     @media (min-width: 768px) {
       .side-art {
-        width: 15vw;
+        width: 25vw;
       }
     }
 
@@ -123,7 +124,7 @@
 
     .side-art.right {
       right: 0;
-      justify-content: flex-end;
+      justify-content: center;
       /* align-items: flex-start; */
     }
 
@@ -132,7 +133,7 @@
       height: auto;
       max-height: 100vh;
       object-fit: cover;
-      opacity: 0.5;
+      opacity: var(--side-art-opacity);
       filter: sepia(6%) saturate(85%);
     }
 
@@ -155,9 +156,9 @@
 
     @media (min-width: 768px) {
       .page {
-        margin-left: 15vw;
-        margin-right: 15vw;
-        max-width: 70vw;
+        margin-left: 25vw;
+        margin-right: 0;
+        max-width: 75vw;
       }
     }
 
@@ -625,13 +626,15 @@
       gap: 10px;
     }
 
-    @media (max-width: 768px) {
-      .side-art {
+    @media (max-width: 992px) {
+      .side-art.right {
         display: none;
       }
+    }
 
-      .page {
-        margin: 0;
+    @media (max-width: 768px) {
+      .side-art.left {
+        display: none;
       }
     }
 
