@@ -477,7 +477,7 @@ section.faq>.eyebrow {
 
 /* ---------- contact form ---------- */
 section.contact {
-   scroll-margin-top: 40px;
+   margin: 40px 0 40px;
 }
 
 section.contact h2 {
