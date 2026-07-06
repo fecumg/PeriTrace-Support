@@ -652,7 +652,6 @@ footer {
 
 /* ---------- summary box ---------- */
 .summary-box {
-   font-size: 0.9rem;
    background: var(--card);
    border: 1px solid var(--line-strong);
    border-top: 3px solid var(--thread);
