@@ -13,7 +13,7 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
 
-   <link rel="stylesheet" href="styling.css">
+  <link rel="stylesheet" href="styling.css">
 </head>
 
 <body>
@@ -130,7 +130,8 @@
                   <ul>
                     <li>
                       <p><strong>Activate contour detection:</strong> point the camera at a pattern piece and long-press
-                        the pattern (for at least 0.5 seconds) to capture the outline's vertices. It may take a moment to
+                        the pattern (for at least 0.5 seconds) to capture the outline's vertices. It may take a moment
+                        to
                         capture the outline; moving your finger or releasing the press early will cancel the detection.
                       </p>
                     </li>
@@ -144,23 +145,27 @@
                     </li>
                   </ul>
                 </div>
-                <p><strong><i><u>NOTES:</u></i> </strong></p>
-                <p><strong><i><u>* Optimizing camera position and angle:</u></i> </strong></p>
-                <p>PeriTrace uses AR to make pattern tracing effortless. You do not need to point the camera perfectly
-                  perpendicular to the surface.</p>
-                <p>However, iPhone models without LiDAR can sometimes struggle with surface calibration, which may cause
-                  captured contours and points to drift.</p>
-                <p>To maximize precision, follow these best practices:</p>
-                <ul>
-                  <li>
-                    <p><strong>Maintain distance:</strong> Keep your iPhone between 0.5 and 2 meters directly above the
-                      pattern.</p>
-                  </li>
-                  <li>
-                    <p><strong>Verify calibration:</strong> Ensure the reticle perfectly aligns with your physical
-                      surface before tracing.</p>
-                  </li>
-                </ul>
+                <div class="sub-note important">
+                  <p><strong><i><u>NOTES:</u></i> </strong></p>
+                  <p><strong><i><u>* Optimizing camera position and angle:</u></i> </strong></p>
+                  <p>PeriTrace uses AR to make pattern tracing effortless. You do not need to point the camera perfectly
+                    perpendicular to the surface.</p>
+                  <p>However, iPhone models without LiDAR can sometimes struggle with surface calibration, which may
+                    cause
+                    captured contours and points to drift.</p>
+                  <p>To maximize precision, follow these best practices:</p>
+                  <ul>
+                    <li>
+                      <p><strong>Maintain distance:</strong> Keep your iPhone between 0.5 and 2 meters directly above
+                        the
+                        pattern.</p>
+                    </li>
+                    <li>
+                      <p><strong>Verify calibration:</strong> Ensure the reticle perfectly aligns with your physical
+                        surface before tracing.</p>
+                    </li>
+                  </ul>
+                </div>
                 <br>
                 <p><strong><i><u>Finishing or Cancelling a Trace:</u></i> </strong></p>
                 <ul>
@@ -211,15 +216,19 @@
                     fingers to rotate it.</li>
                   <li><strong>Delete a piece:</strong> Long-press a pattern piece, then tap the Delete button in the
                     tooltip <span class="button btn-plain"><img src="images/Peri_Tooltip.jpeg" height="30"
-                          alt="Canvas Tooltip" /></span></li>
+                        alt="Canvas Tooltip" /></span></li>
                 </ul>
 
-                <div class="sub-note tip">
+                <div class="sub-note">
                   <p><strong><i><u>Pro tip for high precision:</u></i> </strong></p>
-                  <p>When doubting a traced pattern piece's accuracy, try capturing it a few times. Stack all the captured pieces on top of each other on the canvas to find the average outline.</p>
+                  <p>When doubting a traced pattern piece's accuracy, try capturing it a few times. Stack all the
+                    captured pieces on top of each other on the canvas to find the average outline.</p>
                 </div>
-                <p><strong><i><u>NOTES:</u></i> </strong></p>
-                <p>A single pattern canvas can hold up to 40 pattern pieces. If you physical pattern has more than 40 pieces, split the project across multiple separate patterns on PeriTrace.</p>
+                <div class="sub-note important">
+                  <p><strong><i><u>NOTES:</u></i> </strong></p>
+                  <p>A single pattern canvas can hold up to 40 pattern pieces. If you physical pattern has more than 40
+                    pieces, split the project across multiple separate patterns on PeriTrace.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -235,30 +244,43 @@
           <div class="faq-a-wrap">
             <div class="faq-a-inner">
               <div class="faq-a">
-                <p>PeriTrace exports your final pattern layout at an exact 1:1 scale, completely preserving your canvas arrangement.</p>
+                <p>PeriTrace exports your final pattern layout at an exact 1:1 scale, completely preserving your canvas
+                  arrangement.</p>
 
                 <p><strong><i><u>How to export:</u></i> </strong></p>
                 <ul>
-                  <li><strong>Export button:</strong> On pattern canvas screen, the Export <span class="button btn-circle"><span class="material-symbols-outlined">ios_share</span></span> button is located at the bottom left the screen. This button will remain disabled until there's at least one piece on the canvas</li>
-                  <li><strong>Select your format:</strong> Tap the Export button to bring up the export sheet. Select your desired format to generate the file.</li>
-                  <li><strong>Choose a destination:</strong> A standard iOS Share Sheet will appears after you select a format. Choose where to send, save, or share your file.</li>
-                  <li><strong>Instant local backup:</strong> No matter what you choose in the Share Sheet, PeriTrace automatically saves or overwrites the file locally to: 
+                  <li><strong>Export button:</strong> On pattern canvas screen, the Export <span
+                      class="button btn-circle"><span class="material-symbols-outlined">ios_share</span></span> button
+                    is located at the bottom left the screen. This button will remain disabled until there's at least
+                    one piece on the canvas</li>
+                  <li><strong>Select your format:</strong> Tap the Export button to bring up the export sheet. Select
+                    your desired format to generate the file.</li>
+                  <li><strong>Choose a destination:</strong> A standard iOS Share Sheet will appears after you select a
+                    format. Choose where to send, save, or share your file.</li>
+                  <li><strong>Instant local backup:</strong> No matter what you choose in the Share Sheet, PeriTrace
+                    automatically saves or overwrites the file locally to:
                     <br>
-                    <strong>On My iPhone → PeriTrace → Exports</strong></li>
-                  <li><strong>Preview your file:</strong> Tap Quick Look <span class="button btn-plain-long done"><span class="material-symbols-outlined">visibility</span> Quick Look</span> button after exporting to instantly preview your exported file.</li>
+                    <strong>On My iPhone → PeriTrace → Exports</strong>
+                  </li>
+                  <li><strong>Preview your file:</strong> Tap Quick Look <span class="button btn-plain-long done"><span
+                        class="material-symbols-outlined">visibility</span> Quick Look</span> button after exporting to
+                    instantly preview your exported file.</li>
                 </ul>
                 <p><strong><i><u>Supported export formats:</u></i> </strong></p>
                 <div class="fmt-grid">
-                  <div class="fmt-card"><b>PDF</b><span>Universal layout format. Ideal for standard printing, vector graphics software, or apparel CAD systems.</span></div>
-                  <div class="fmt-card"><b>DXF</b><span>industrial-standard CAD format. Dedicated specifically for pattern drafting and garment CAD software.</span></div>
-                  <div class="fmt-card"><b>SVG</b><span>Scalable vector graphics format. Best for web use or editing in mainstream vector design programs.</span></div>
+                  <div class="fmt-card"><b>PDF</b><span>Universal layout format. Ideal for standard printing, vector
+                      graphics software, or apparel CAD systems.</span></div>
+                  <div class="fmt-card"><b>DXF</b><span>industrial-standard CAD format. Dedicated specifically for
+                      pattern drafting and garment CAD software.</span></div>
+                  <div class="fmt-card"><b>SVG</b><span>Scalable vector graphics format. Best for web use or editing in
+                      mainstream vector design programs.</span></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-         <!-- Q6 -->
+        <!-- Q6 -->
         <div class="faq-item">
           <button class="faq-q" aria-expanded="false">
             <span class="faq-tag">Q06</span>
@@ -268,15 +290,31 @@
           <div class="faq-a-wrap">
             <div class="faq-a-inner">
               <div class="faq-a">
-                <p>PeriTrace offers 10 free exports for all users. To get unlimited exports, you can upgrade to a premium plan at any time.</p>
+                <p>PeriTrace offers 10 free exports for all users. To get unlimited exports, you can upgrade to a
+                  premium plan at any time.</p>
 
                 <p><strong><i><u>How to upgrade to a premium plan:</u></i> </strong></p>
                 <ul>
-                  <li><strong>When free exports are exhausted:</strong> Tap any format in the export sheet to open the paywall.</li>
-                  <li><strong>Immediately:</strong> Tap the Guest Trial <span class="button btn-plain-long full"><span class="material-symbols-outlined">eco</span> Guest Trial</span> button to open the paywall.</li>
+                  <li><strong>When free exports are exhausted:</strong> Tap any format in the export sheet to open the
+                    paywall.</li>
+                  <li><strong>Immediately:</strong> Tap the Guest Trial <span class="button btn-plain-long full"><span
+                        class="material-symbols-outlined">eco</span> Guest Trial</span> button to open the paywall.</li>
                 </ul>
 
-                <p>PeriTrace currently offers one premium plan for unlimited exports, which charges a monthly fee of $3.99 and bills monthly. Payment will be charged to your Apple ID account at confirmation of purchase. The subscription automatically renews unless it is canceled at least 24 hours before the end of the current billing period. You can manage and cancel your subscription at any time in your Apple Account Settings.</p>
+                <p>PeriTrace currently offers one premium plan for unlimited exports, which charges a monthly fee of
+                  $3.99 and bills monthly. Payment will be charged to your Apple ID account at confirmation of purchase.
+                  The subscription automatically renews unless it is canceled at least 24 hours before the end of the
+                  current billing period. You can manage and cancel your subscription at any time in your Apple Account
+                  Settings.</p>
+
+                <div class="sub-note important">
+                  <p><strong><i><u>NOTES:</u></i> </strong></p>
+                  <p>To access paywall, ensure your pattern contains at least one pattern piece to enable the export
+                    button. The link to the paywall is located in export sheet.</p>
+                </div>
+                <br>
+                <p><strong><i><u>Already subscribed?</u></i> </strong></p>
+                <p>Tap the Restore Subscription button at the bottom of the paywall.</p>
               </div>
             </div>
           </div>
@@ -337,7 +375,8 @@
         </button>
         <p class="form-status" id="formStatus">Opening your mail app…</p>
         <p class="form-note">
-          This opens your default email app addressed to <a href="mailto:support@twillandthrills.com"><strong>support@twillandthrills.com</strong></a>. 
+          This opens your default email app addressed to <a
+            href="mailto:support@twillandthrills.com"><strong>support@twillandthrills.com</strong></a>.
           <span class="nowrap">Nothing is sent from this page directly.</span>
         </p>
       </form>

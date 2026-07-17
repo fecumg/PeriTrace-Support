@@ -349,8 +349,8 @@ section.faq>.eyebrow {
    margin: 14px 0;
 }
 
-.faq-a .sub-note.tip {
-   border-left-color: var(--thread);
+.faq-a .sub-note.important {
+   border-left-color: var(--card-destructive);
 }
 
 .button {
