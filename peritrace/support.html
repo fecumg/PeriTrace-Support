@@ -119,7 +119,7 @@
                     manually.</li>
                   <li><strong>Marking:</strong> Aim the reticle at a mark on the physical pattern piece and tap the Mark
                     <span class="button btn-circle"><span><img src="images/Peri_Mark.png" width="5"
-                          alt="Trace Mark" /></span></span>. Marks stand alone and never connect to vertices or other
+                          alt="Trace Mark" /></span></span> button. Marks stand alone and never connect to vertices or other
                     marks.
                   </li>
                 </ul>
@@ -427,10 +427,10 @@
       const subject = `[PeriTrace] ${reason} from ${name}`;
       const body =
         `Name: ${name}
-Email: ${email}
-Type: ${reason}
+        Email: ${email}
+        Type: ${reason}
 
-${message}`;
+        ${message}`;
 
       const mailto = `mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       window.location.href = mailto;
